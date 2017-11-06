@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Input {
 	public static Scanner sc = new Scanner(System.in);
-	
+
 	public static int get_int() {
 		Integer retInt = Integer.MAX_VALUE;
 		while(retInt.equals(Integer.MAX_VALUE)) {
@@ -47,7 +47,7 @@ public class Input {
 		}
 		return retChar;
 	}
-	
+
 	public static String get_string() {
 		String retStr = "";
 		while(retStr.equals("")) {
@@ -61,6 +61,28 @@ public class Input {
 		}
 		return retStr;
 	}
+
+	public static void print(String s) {
+		System.out.print(s);
+	}
+
+	public static void print(int i) {
+		System.out.print(i);
+	}
+
+	public static void print(float f) {
+		System.out.print(f);
+	}
+
+	public static void print(double d) {
+		System.out.print(d);
+	}
 	
+	public static void print(char c) {
+		System.out.print(c);
+	}
+
+
+
 
 }
