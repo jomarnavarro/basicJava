@@ -1,0 +1,11 @@
+Modelar un libro y una biblioteca
+
+Ejemplos,
+
+-Un libro se puede:
+prestar,
+regresar,
+dar de alta,
+dar de baja,
+-Una biblioteca,
+lleva el registro de los libros (Por ejemplo, un arreglo de libros)
