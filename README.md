@@ -10,7 +10,7 @@ Este proyecto contiene el material del curso de Automatizacion de pruebas web Ut
     * Programacion Orientada a Objetos y primer ejemplo de Selenium
     * Tareas por modulo.
 
-## Prerequisitos
+## Prerequisitos (Son Muchas)
 
 Los prerequisitos de instalacion cuentan:  
 
