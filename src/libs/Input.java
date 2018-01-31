@@ -24,7 +24,7 @@ public class Input {
 		Float retFloat = Float.MAX_VALUE;
 		while(retFloat.equals(Float.MAX_VALUE)) {
 			try {
-				float f = sc.nextInt();
+				float f = sc.nextFloat();
 				retFloat = f;
 			}catch(InputMismatchException ime) {
 				System.out.println("Wrong format for float. input correct float: ");
@@ -52,7 +52,7 @@ public class Input {
 		String retStr = "";
 		while(retStr.equals("")) {
 			try {
-				String s = sc.next();
+				String s = sc.nextLine();
 				retStr = s;
 			}catch(InputMismatchException ime) {
 				System.out.println("Wrong format for float. input correct float: ");
@@ -80,6 +80,27 @@ public class Input {
 	
 	public static void print(char c) {
 		System.out.print(c);
+	}
+
+	public static double get_double() {
+		Double retDouble = Double.MAX_VALUE;
+		while(retDouble.equals(Double.MAX_VALUE)) {
+			try {
+				double d = sc.nextDouble();
+				retDouble = d;
+			}catch(InputMismatchException ime) {
+				System.out.println("Wrong format for float. input correct double: ");
+				sc = new Scanner(System.in);
+			}
+		}
+		return retDouble;
+	}
+
+	public static void print(String[] split) {
+		for(int i = 0; i < split.length; i++) {
+			print(split[i] + "\n");
+		}
+		
 	}
 
 
