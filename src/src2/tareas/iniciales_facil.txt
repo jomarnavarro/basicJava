@@ -1,5 +1,26 @@
-Implemente un programa que, dado el nombre de una persona, imprima las iniciales de la personas, como se muestra abajo.
+Implemente un programa que, dado el nombre completo de una persona, imprima las iniciales de la personas, como se muestra abajo.
 
 $ ./iniciales_facil
 Regulus Arcturus Black
 RAB
+
+Jesus Omar Navarro
+JON
+
+Luis Eduardo Laya
+LEL
+
+
+
+1.  Utilizar la funcion s.charAt(i).  Si el caracter es mayuscula, imprimirlo.  
+
+s.charAt(i) >= 'A' && s.charAt(i) <= 'Z'
+
+2.  Utilizar la funcion split()
+s.split(" ")
+["Regulus", "Arcturus", "Black"]
+Regulus.charAt(0) imprimirlo
+Arcturus.charAt(0) imprimirlo
+etc...
+
+

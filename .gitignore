@@ -1,2 +1,9 @@
+.classpath
 /bin/
 *.c
+MarioFacil.java
+MarioDificil.java
+MonedasMinimas.java
+WaterBottles.java
+AmazonProduct.java
+ExampleAmazonProduct.java

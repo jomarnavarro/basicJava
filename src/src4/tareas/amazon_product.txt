@@ -1,0 +1,2 @@
+Crea una clase que contenga los atributos de un producto de venta en amazon,
+por lo menos dos constructores y por lo menos metodos set y get.

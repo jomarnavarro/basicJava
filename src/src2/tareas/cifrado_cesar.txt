@@ -3,3 +3,15 @@ Implemente el cifrado de Cesar, como se muestra abajo.
 $ ./cifrado_cesar 13
 mensaje inicial:  HELLO
 mensaje cifrado: URYYB
+
+H   A   L
+72  65  76
+I   B   M
+73  66  77
+ARthur C Clarke
+"2001 odisea del espacio"
+
+5
+HOLA
+UBYN
+
