@@ -8,9 +8,9 @@ Este proyecto contiene el material del curso de Automatizacion de pruebas web Ut
     * Programas ejemplo para repaso de argumentos de linea de comandos, manejo de Strings y caracteres.
     * Programas con Arreglos, busqueda secuencial y ordenamiento burbuja
     * Programacion Orientada a Objetos y primer ejemplo de Selenium
-    * Tareas por modulo.
+    * Tareas
 
-## Prerequisitos (Son Muchas)
+## Prerequisitos
 
 Los prerequisitos de instalacion cuentan:  
 
