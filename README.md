@@ -9,6 +9,7 @@ Este proyecto contiene el material del curso de Automatizacion de pruebas web Ut
     * Programas con Arreglos, busqueda secuencial y ordenamiento burbuja
     * Programacion Orientada a Objetos y primer ejemplo de Selenium
     * Tareas
+    * [Board de Trello](https://trello.com/b/VdY2fSN0/intro-programacion)
 
 ## Prerequisitos
 
