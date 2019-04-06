@@ -7,3 +7,5 @@ MonedasMinimas.java
 WaterBottles.java
 AmazonProduct.java
 ExampleAmazonProduct.java
+.idea/*
+java_essentials.iml
