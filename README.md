@@ -2,7 +2,7 @@
 
 ## Contenido
 
-Este proyecto contiene el material del curso de Automatizacion de pruebas web Utilizando [Selenium](http://seleniumhq.org).  Proporciona un repaso del lenguaje Java:
+Este proyecto contiene el material del curso de Automatizacion de pruebas web Utilizando [Selenium](http://seleniumhq.org).  El temario incluye un repaso de logica de programacion, asi como del lenguaje Java:
 
     * Programas ejemplo para repaso de tipos de dato, instrucciones condicionales y ciclos
     * Programas ejemplo para repaso de argumentos de linea de comandos, manejo de Strings y caracteres.
