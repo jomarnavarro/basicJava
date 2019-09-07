@@ -1,0 +1,7 @@
+
+El sandwich es de jamon?
+if(respuesta es sí) {
+     hacerSandwichJamon();
+} else { // cuando la respuesta es no
+     hacerSandwichBolonia();
+}

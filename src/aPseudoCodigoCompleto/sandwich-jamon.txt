@@ -1,0 +1,40 @@
+* Hacer el Pan
+Plantar el trigo
+Cuidar la siembra
+Cosechar el trigo
+Hacer harina
+Añadir agua y levadura
+Hornear el Pan
+
+* Hacer el Jamon
+Criar los cerdos
+Sacrificar los Cerdos
+Hacer jamón
+
+* Hacer la crema
+Ordeñar la vaca
+Hacer Crema
+
+* Conseguir tomate
+Plantar el tomate
+Cuidar la siembra
+Cosechar el tomate
+
+* Conseguir la lechuga
+Plantar la lechuga
+Cuidar la siembra
+Cosechar la lechuga
+
+* Preparar el sandwich
+Cortar el pan
+Tomar dos rebanadas
+Encontrar el cuchillo
+Aplicar la crema
+Limpiar el cuchillo
+Lavar lechuga y tomate
+Cortar lechuga y tomate
+Poner una rebanada de jamón
+Poner segundo pan encima
+Encontrar plato
+Poner sándwich en plato
+Comer

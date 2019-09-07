@@ -1,0 +1,22 @@
+hacerPan() {
+
+}
+
+hacerJamon() {
+
+}
+hacerCrema() {
+
+}
+
+conseguirLechuga() {
+
+}
+
+conseguirTomate() {
+
+}
+
+prepararSandwich() {
+
+}
