@@ -6,7 +6,9 @@ public class Logical {
 
 	public static void main(String args[])
 	{
-		int c = Input.get_char();
+
+		System.out.println("Sabes programar en Java? ");
+		char c = Input.get_char();
 	    if (c == 'Y' || c == 'y')
 	    {
 	    	System.out.print("yes\n");

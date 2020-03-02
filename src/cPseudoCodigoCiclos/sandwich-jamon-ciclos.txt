@@ -5,3 +5,8 @@ while(numero_sandwiches es menor que 10) {
 }
 
 
+numero_sandwiches_mermelada = 0
+while(numero_sandwiches_mermelada es menor que 20) {
+     hacerSandwichMermelada();
+     suma uno a numero_sandwiches_mermelada
+}

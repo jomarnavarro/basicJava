@@ -2,40 +2,5 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/testng-6.7.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/JUnitParams-1.0.4.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/cglib-nodep-3.2.4.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/commons-io-2.5.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/commons-lang3-3.5.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/cssparser-0.9.22.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/gson-2.8.0.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/guava-21.0.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/htmlunit-2.26.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/htmlunit-core-js-2.26.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/htmlunit-driver-2.26.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/httpmime-4.5.3.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/javax.servlet-api-3.1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/jetty-io-9.4.1.v20170120.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/jetty-util-9.4.1.v20170120.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/jna-platform-4.1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/neko-htmlunit-2.25.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/phantomjsdriver-1.4.0.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/sac-1.3.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/serializer-2.7.2.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/websocket-api-9.4.3.v20170317.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/websocket-client-9.4.3.v20170317.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/websocket-common-9.4.3.v20170317.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/xalan-2.7.2.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/xercesImpl-2.11.0.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/xml-apis-1.4.01.jar"/>
-	<classpathentry kind="lib" path="/Users/jnavarro/test_automation/libs/client-combined-3.4.0-nodeps.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

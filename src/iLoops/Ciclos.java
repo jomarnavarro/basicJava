@@ -27,6 +27,19 @@ public class Ciclos {
 			}
 			numero -= 1;
 		}
+
+		Input.print("\n");
+
+	System.out.println("Cuantas repeticiones quieres? ");
+		int numeroRepeticiones = Input.get_int();
+		for(int i = 0; i < numeroRepeticiones; i++) {
+			hagoAlgo();
+		}
 	}
+
+	private static void hagoAlgo() {
+		System.out.println("repeticion");
+	}
+
 
 }

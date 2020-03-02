@@ -13,3 +13,12 @@ Altura: 3
   ##
  ###
 ####
+
+
+pedir  altura y almacenar el valor
+
+asegurarr que el valor es positivo mayor que  1
+1
+
+
+hacer unfor que cuente del valor i
