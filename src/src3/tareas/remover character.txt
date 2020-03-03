@@ -1,0 +1,10 @@
+Escriba un programa que remueva cierto caracter de una cadena dada.
+
+Por ejemplo
+
+s = "ABCAAADEAFA";
+t = strip(s, 'A');  // "BCDEF"
+
+s = "ABCDEFG";
+t = strip(s, 'W) // "ABCDEFG"
+
