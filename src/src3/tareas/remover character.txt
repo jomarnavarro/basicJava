@@ -6,5 +6,4 @@ s = "ABCAAADEAFA";
 t = strip(s, 'A');  // "BCDEF"
 
 s = "ABCDEFG";
-t = strip(s, 'W) // "ABCDEFG"
-
+t = strip(s, 'W') // "ABCDEFG"

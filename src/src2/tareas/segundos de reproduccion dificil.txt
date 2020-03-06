@@ -1,0 +1,5 @@
+Dada la duracion de una cancion en segundos, obtenga el numero de minutos y segundos en el formato del ejemplo
+
+Ejemplo:
+Duracion en segundos: 360
+La cancion dura 6 minutos y 0 segundos

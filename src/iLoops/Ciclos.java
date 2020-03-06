@@ -17,7 +17,7 @@ public class Ciclos {
 		numero=10;
 		while (numero >= 0) {
 			if(numero == 0) {
-				Input.print("despegar");
+				Input.print("que tragon eres");
 				
 			}
 			else {

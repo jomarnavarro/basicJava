@@ -1,0 +1,47 @@
+Implementa un programa que calcule el grado de escolaridad requerido para entender cierto texto, de acuerdo a las
+siguientes especificaciones:
+
+Texto: Congratulations! Today is your day. You're off to Great Places! You're off and away!
+Grado: 3 Primaria
+
+Niveles de Complejidad Lectora:
+
+     De acuerdo a Scholastic, el libro "Charlotte's Web" es adecuado para los grados 2 - 4 de Primaria, mientras que
+"The Giver" de Lois Lowry esta entre el 2o de Secundaria y el 3er año de bachillerato.
+
+     En muchos casos, un experto en literatura puede juzgar en que año debería leerse un libro, de acuerdo a la madurez
+del lector.  Sin embargo, hay un enfoque más algorítmico para determinar el nivel de escolaridad requerido para entender
+un libro dado.
+
+     ¿Qué tipo de características tendrán los textos de mayor nivel de complejidad?  Para empezar, hay una correlación
+entre la longitud de las palabras y niveles más alto de comprensión, al igual que tener oraciones más largas.  A traves
+de los años, se han diseñado algoritmos que califican el nivel de escolaridad requerido para entender un texto, entre ellos,
+el índice de Coleman-Liau, diseñado para indicar el nivel de escolaridad requerido para entender un texto.  La fórmula
+es:
+
+indice = 0.0588 * L - 0.296 * O - 15.8
+
+Donde L es el numero promedio de letras en cada 100 palabras de texto, y O es el número promedio de oraciones por cada
+100 palabras de texto.
+
+Ejemplos:
+
+De un texto del Dr. Seuss:
+
+Texto: Congratulations! Today is your day. You're off to Great Places! You're off and away!
+Grado: 3 Primaria
+
+El usuario ingreso 65 letras, 4 oraciones y 14 palabras.  65 letras por 14 palabras es un promedio de 464.29 letras en 100
+palabras, mientras que 4 oraciones en 14 palabras es un promedio de 28.57 oraciones en  100 palabras.  Ingresando estos datos
+en la formula, y redondeado al numero entero más próximo, nos da un resultado de 3.
+
+El siguiente texto se tomo de Harry Potter
+
+
+Texto: Harry Potter was a highly unusual boy in many ways. For one thing, he hated the summer holidays more than any other
+time of year. For another, he really wanted to do his homework, but was forced to do it in secret, in the dead of the night.
+ And he also happened to be a wizard.
+Grado: 5 Primaria
+
+El texto tiene 214 letras, 4 oraciones y 56 palabras, o  382.14 letras por cada 100 palabras, y 7.14 oraciones por 100
+palabras.  Por la fórmula de Coleman-Liau, obtenemos 5o Grado de comprensión lectora.
