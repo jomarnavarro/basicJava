@@ -1,0 +1,26 @@
+* navegar a la pagina
+introducir la url en la barra de navegacion
+dar click en enter
+
+* validar los elementos de la pagina principal
+- imagen, ligas, etc. etc. etc.
+
+* dar click en login
+
+* validar que aparece la pagina de login
+- campo usuario
+- campo password
+- boton login
+
+* ingresar las credenciales
+- ingresar frank en el campo de usuario
+- ingresar sinatra en el campo de password
+- click en boton de login
+
+* verificar que carga la pagina principal con un mensaje de bienvenida
+- imagen, ligas,
+- mensaje de bienvenida 'you're now logged in as frank'
+
+* darle click en 'Songs'
+
+* verificar
