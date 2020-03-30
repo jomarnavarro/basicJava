@@ -1,4 +1,4 @@
-package src1.tareas;
+package bHolaMundo;
 
 public class Buggy0 {
 
