@@ -1,8 +1,0 @@
-sandwich hacerSandwich(tipoSandwich) {
-     if(tipoSandwich es “Jamón”) {
-          return hacerSandwichJamon();
-     } 
-     if(tipoSandwich es “Bolonia”) { // cuando la respuesta es no
-          return hacerSandwichBolonia();
-     }
-}
