@@ -1,0 +1,4 @@
+Escriba un programa que pregunte el nombre al usuario, y le conteste Hola, <nombre>
+Ejemplo:
+Como te llamas?  Pedro
+Hola, Pedro

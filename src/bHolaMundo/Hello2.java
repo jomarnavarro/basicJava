@@ -1,4 +1,4 @@
-package bHolaMundo.fHelloWorld;
+package bHolaMundo;
 
 import libs.Input;
 

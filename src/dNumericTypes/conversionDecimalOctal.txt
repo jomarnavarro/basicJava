@@ -1,0 +1,11 @@
+Cree un programa que convierta un numero decimal en hexadecimal:
+Ejemplos:
+Ingrese un numero positivo:
+15
+Hexadecimal: F
+Ingrese un numero positivo:
+150
+Hexadecimal: 9F
+Ingrese un numero positivo:
+-150
+Error. El numero debe ser positivo

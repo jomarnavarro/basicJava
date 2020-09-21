@@ -1,0 +1,7 @@
+Escriba un programa que le pida al usuario el radio de un circulo e imprima su area y circumferencia:
+Ejemplo:
+Ingrese el radio del circulo:
+2
+Area: 12.56637061
+Perimetro: 12.56637061
+Mejora:  redondee o trunque a dos cifras

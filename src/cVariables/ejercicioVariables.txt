@@ -1,0 +1,5 @@
+Lista la informacion que procesa:
+- Amazon para un producto
+- Facebook para hacer login
+- Songs By Sinatra para dar de alta una cancion.
+Que tipo de informacion estan procesando?

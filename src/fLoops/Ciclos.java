@@ -1,4 +1,4 @@
-package iLoops;
+package fLoops;
 
 import libs.Input;
 

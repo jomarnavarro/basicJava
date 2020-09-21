@@ -1,0 +1,5 @@
+Cree una clase para cada cada punto del ejercicio 2.  
+Liste la informacion con su tipo de dato.
+- Amazon para un producto
+- Facebook para hacer login
+- Songs By Sinatra para dar de alta una cancion.

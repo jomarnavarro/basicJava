@@ -1,4 +1,4 @@
-package iConditionals;
+package fLoops;
 
 import libs.Input;
 
