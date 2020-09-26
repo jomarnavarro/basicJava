@@ -11,12 +11,12 @@ public class WhileRepeticionesDeterminadas {
             numero+= 1;
         }
 
-        int numeroSentadillas = 0;
+        int numeroSentadillas = 1;
         System.out.println("Cuantas sentadillas vas a hacer? ");
         int numeroTotal = Input.get_int();
 
-        while(numeroSentadillas < numeroTotal) {
-            System.out.println("Sentadilla");
+        while(numeroSentadillas <= numeroTotal) {
+            System.out.println("Sentadilla" + numeroSentadillas) ;
             numeroSentadillas++;
         }
 
