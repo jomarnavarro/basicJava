@@ -7,12 +7,10 @@ public class Floats {
 	public static void main(String args[])
 	{
 		// prompt user for x
-		System.out.print("x is ");
-	    float x = Input.get_float();
+	    float x = Input.get_float("x is: ");
 	    
 	    // prompt user for y
-	    System.out.print("y is ");
-	    float y = Input.get_float();
+	    float y = Input.get_float("y is: ");
 	    
 	    // perform division for user
 	    System.out.print(x + " divided by " + y + " is " + ( x / y) + "\n");

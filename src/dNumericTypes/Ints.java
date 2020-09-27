@@ -7,12 +7,10 @@ public class Ints {
 	public static void main(String args[])
 	{
 		// prompt user for x
-		System.out.print("x is ");
-	    int x = Input.get_int();
+		int x = Input.get_int("x is: ");
 	    
 	    // prompt user for y
-	    System.out.print("y is ");
-	    int y = Input.get_int();
+	    int y = Input.get_int("y is: ");
 	    
 	    // perform calculations for user
 	    System.out.print(x + " plus " + y + " is " + (x + y) + "\n");

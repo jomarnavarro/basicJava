@@ -4,7 +4,7 @@ import libs.Input;
 
 public class WhileRepeticionesDeterminadas {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         int numero = 0;
         while(numero <= 10) {
             System.out.println(numero);
@@ -12,8 +12,7 @@ public class WhileRepeticionesDeterminadas {
         }
 
         int numeroSentadillas = 1;
-        System.out.println("Cuantas sentadillas vas a hacer? ");
-        int numeroTotal = Input.get_int();
+        int numeroTotal = Input.get_int("Cuantas sentadillas vas a hacer? ");
 
         while(numeroSentadillas <= numeroTotal) {
             System.out.println("Sentadilla" + numeroSentadillas) ;
@@ -28,13 +27,25 @@ public class WhileRepeticionesDeterminadas {
             posicionTortuga++;
             if(posicionLiebre < 25) {
                 posicionLiebre += 5;
-                System.out.println("La Liebre va rapido, y la tortuga lento");
+                //System.out.println("La Liebre va rapido, y la tortuga lento");
             } else {
-                System.out.println("La Liebre ya se confio, y esta celebrando la victoria.");
+                //System.out.println("La Liebre ya se confio, y esta celebrando la victoria.");
             }
-            System.out.println("Posicion Liebre " + posicionLiebre);
-            System.out.println("Posicion Tortuga " + posicionTortuga);
+            printPosicion(posicionLiebre, 'L');
+            printPosicion(posicionTortuga, 'T');
         }
+    }
+
+    public static void printPosicion(int posicion, char inicial) throws InterruptedException {
+        Input.print(0);
+        for(int i = 0; i < posicion - 2; i++)
+            Input.print(" ");
+        Input.print(inicial);
+        for(int i = 0; i < 29 - posicion; i++)    
+            Input.print(" ");
+        Input.print(30);
+        System.out.println();
+        Thread.sleep(1000);
     }
     
 }

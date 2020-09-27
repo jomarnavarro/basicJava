@@ -15,8 +15,7 @@ public class Positive {
 	    int n;
 	    do
 	    {
-	    	System.out.print("n is ");
-	        n = Input.get_int();
+	        n = Input.get_int("n is: ");
 	    }
 	    while (n < 1);
 	    return n;

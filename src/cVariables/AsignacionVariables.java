@@ -10,6 +10,7 @@ public class AsignacionVariables {
     static String nombre;
     static int edad;
     static double salarioLibre;
+
     public static void main(String[] args) {
         String direccion;
         double salario;

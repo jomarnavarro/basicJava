@@ -6,8 +6,7 @@ public class Conditions {
 
 	public static void main(String args[])
 	{
-		System.out.print("Dame un numero: ");
-		int i = Input.get_int();
+		int i = Input.get_int("Dame un numero positivo: ");
 		if (i < 0)
 		{
 			System.out.print("negative\n");

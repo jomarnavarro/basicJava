@@ -17,8 +17,7 @@ public class WhileRepeticionesDesconocidas {
         // }
 
         int numeroSecreto = new Random().nextInt(11);
-        System.out.println("Indique el numero secreto entre 0 y 10: ");
-        int numeroUsuario = Input.get_int();
+        int numeroUsuario = Input.get_int("Indique el numero secreto entre 0 y 10: ");
 
             //for(; condicion ;) {
                 //instrucciones

@@ -6,7 +6,7 @@ public class Switch {
 
 public static void main(String args[])
 {
-	char c = Input.get_char();
+	char c = Input.get_char("Are you ready? ");
 	switch (c)
 	{
 	case 'Y':
