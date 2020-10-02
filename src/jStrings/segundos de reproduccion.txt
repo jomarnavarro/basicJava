@@ -7,6 +7,9 @@ el video dura 345 segundos.
 
 1.  imprimo mensaje "durancion del video: (mm:ss)"
 2.  capturar el dato del usuario guardarlo en un string
-3.  partir la informacion en dos:  el primero es minutos, el otro es segundos
-4.  multiplicar los minutos por sesenta y sumarle los segundos.
-5. imprimir el resultado
+3.  recorrer el string caracter por caracter:
+    Si el caracter es numerico ( o si el caracter no es ':'), guardarlo en un string
+    Si no, continuar con la siguiente letra
+4.  convertir los dos strings en numeros (Integer.parseInt())
+5.  multiplicar los minutos por sesenta y sumarle los segundos.
+6. imprimir el resultado

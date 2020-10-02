@@ -27,6 +27,16 @@ public class Input {
 
 	}
 
+	public static int get_positive_int(String message) {
+		int retVal = -1;
+		do {
+			retVal = get_int(message);
+			if(retVal < 0)
+				System.out.println(retVal + " es negativo.  Intenta de nuevo");
+		}while (retVal < 0);
+		return retVal;
+	}
+
 	public static float get_float() {
 		return get_float("");
 	}
