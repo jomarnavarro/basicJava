@@ -1,0 +1,43 @@
+package Sem4_JAVA;
+
+class A
+{
+	static int i=1; //static variable
+	static int j=2;
+	int k=1431;
+	static void B() //static method
+	{
+		System.out.println("i:"+i);
+	}
+	void C() //non static method
+	{
+		System.out.println("non static method");
+		System.out.println("non static variable:"+k);
+	}
+}
+public class StaticDemo {
+	static int m=100;
+	static int n;
+	static void callme()
+	{
+		System.out.println("inside static method");
+		System.out.println("m:"+m);
+	}
+	static //static block
+	{
+		System.out.println("block1");
+	}
+	static
+	{
+		System.out.println("block2");
+		n=m+100;
+	}
+	public static void main(String[] args) {
+		A obj=new A();
+		callme();
+		System.out.println("n:"+StaticDemo.n);
+		A.B(); //calling static method
+		System.out.println("j:"+A.j); //printing static variable
+		obj.C(); //to call non static method	
+	}
+}
